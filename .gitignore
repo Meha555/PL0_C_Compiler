@@ -1,0 +1,9 @@
+# VSCode
+.vscode/
+
+# C/C++
+*.o
+
+# Other
+*.exe
+*.tmp

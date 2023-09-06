@@ -1,0 +1,10 @@
+var x;
+begin
+       x:=1;
+       repeat
+            begin
+             x++;
+            end;
+       until x>5;
+       write(x);
+end.

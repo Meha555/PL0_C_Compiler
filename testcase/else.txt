@@ -1,0 +1,11 @@
+var a;
+var b;
+begin
+      a:=0;
+      read(b);
+      if b<=3
+      then
+          write(b);
+      else
+          write(a);
+end.

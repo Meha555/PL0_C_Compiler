@@ -1,0 +1,44 @@
+var a,b,i,_sum_,x,in_num,arr[1:5];
+begin
+    a:=7;
+    b:=2;
+    a%b;
+    write(a);{a取模}
+    !a;
+    write(a);{a取反}
+    b--;
+    write(b);{b后置--}
+    --b;
+    write(b);{b前置--}
+    a:=b++;
+    write(a);{b后置++}
+    a:=++b;
+    write(a);{b前置++}
+    {if..then..else语句}
+    {read(in_num);
+    if in_num<=3 then
+        write(in_num);
+    else
+        write(a);
+    {repeat...until循环}
+    x:=5;
+    repeat
+    begin
+        x--;
+    end;
+    until x<1;
+    write(x);
+    {for循环}
+    _sum_:=0;
+    for(i:=1;i<=100;i*=2) {*=运算}
+    begin
+        _sum_+=i;
+    end;
+    write(_sum_);
+    {数组}
+    arr[1]:=9;
+    arr[2]:=2;
+    arr[1]/=3;
+    write(arr[1]);
+    write(arr[2]);
+end.
